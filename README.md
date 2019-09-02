@@ -5,7 +5,7 @@
 ## Problem Description
 
 
-Converting handwritten text into typed text with good efficiency and accuracy is a popular implemetation of machine learning methods. This project attempts to further recognize a handwritten table automatically into fomartted excel file. Besides the basic task of recognizing charaters and digits, it also requires the program to collect the location information of the text and also distinguish between charaters and the table lines.
+Converting handwritten text into typed text with good efficiency and accuracy is a popular implemetation of machine learning methods. This project attempts to further recognize a handwritten table automatically into fomartted excel file. Besides the basic task of recognizing charaters and digits, it also requires the program to collect the location information of the text and distinguish between charaters and the table lines.
 
 
 
