@@ -7,10 +7,12 @@
 
 Converting handwritten text into typed text with good efficiency and accuracy is a popular implemetation of machine learning methods[1]. This project attempts to further recognize a handwritten table automatically into fomartted excel file. Besides the basic task of recognizing charaters and digits, it also requires the program to collect the location information of the text and distinguish between characters and the table lines.
 
+Subproblem: Character Recognition(Well-solved)
+            Picture Segmentation(No public source of training data, only bussiness-based packages)
+
 
 
 ## Methods
-
 
 
 
