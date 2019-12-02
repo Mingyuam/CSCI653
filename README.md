@@ -11,7 +11,7 @@ Using machine learning method to calculate interatomic potentials often requires
 
 ## Methods
 
-FLARE
+FLARE  
 Quantum Espresso
 
 
