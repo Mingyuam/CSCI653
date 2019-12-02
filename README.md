@@ -1,20 +1,18 @@
-# Handwritten Table OCR(Optical Character Recognition)
+# Potential Energy Surface Calculation with Active Learning 
 
 
 
 ## Problem Description
 
+Using machine learning method to calculate interatomic potentials often requires thousands of first principles calculations. With active learning algorithm, the internal uncertainty of a Gaussian process regression model is used to decide whether to perform a first principle calculation, or just accept the model prediction. This method significantly accelerate the training process. This project aims to apply the active learning package in Ref.[1], to gain some experience on active learning approach.
 
-Converting handwritten text into typed text with good efficiency and accuracy is a popular implemetation of machine learning methods. This project attempts to further recognize a handwritten table automatically into fomartted excel file. Besides the basic task of recognizing charaters and digits, it also requires the program to collect the location information of the text and distinguish between charaters and the table lines.
 
 
 
 ## Methods
 
-
-
-
-Convolutional Neural Network (to be added)
+FLARE
+Quantum Espresso
 
 
 
@@ -23,6 +21,5 @@ Convolutional Neural Network (to be added)
 
 
 
-Given a supported format of input picture, generate an excel file with all content properly lying in position.
 
 
