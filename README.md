@@ -1,32 +1,33 @@
-# Handwritten Table OCR(Optical Character Recognition)
+# Potential Energy Surface Calculation with Active Learning 
 
 
 
 ## Problem Description
 
-
-Converting handwritten text into typed text with good efficiency and accuracy is a popular implemetation of machine learning methods[1]. This project attempts to further recognize a handwritten table automatically into fomartted excel file. Besides the basic task of recognizing charaters and digits, it also requires the program to collect the location information of the text and distinguish between characters and the table lines.
-
-Subproblem: <ol><li>Character Recognition(Well-solved)<li>Picture Segmentation</li></ol>
+Using machine learning method to calculate interatomic potentials often requires thousands of first principles calculations. With active learning algorithm, the internal uncertainty of a Gaussian process regression model is used to decide whether to perform a first principle calculation, or just accept the model prediction. This method significantly accelerate the training process. This project aims to apply the active learning package in Ref. [1,2] and start from reproducing the results in the papers to get some insight on active learning approaches. 
 
 
+## Water Molecule PES by DeepMD
 
-## Methods
+As a warm up, we applied active learning method to calculate PES of water molecule as function of O-H bond length and bond angle. We will update the details of training process later. 
 
 
+Here we show the PES of water molecule by DeepMD.
 
-Convolutional Neural Network 
 
 
 
 ## Expected Results
 
+- calculate PES of aluminum with FLARE and Quantum Espresso  
+- calculate PES of Mg-Al alloys with DeePMD  
 
 
 
-Given a supported format of input picture, generate an excel file with all content properly lying in position.
+## Reference 
+[1] Jonathan Vandermause, Steven B. Torrisi, Simon Batzner, Yu Xie, Lixin Sun, Alexie M. Kolpak, and Boris Kozinsky. On-the-fly active learning of interpretable Bayesian force fields for atomistic rare events. https://arxiv.org/abs/1904.02042  
+[2] Linfeng Zhang, De-Ye Lin, Han Wang, Roberto Car, and Weinan E, Phys. Rev. Materials 3, 023804 – Published 25 February 2019
 
 
-## Reference
 
-[1] Maiwan Bahjat Abdulrazzaq, Jwan Najeeb Saeed, "A Comparison of Three Classification Algorithms for Handwritten Digit Recognition", Advanced Science and Engineering (ICOASE) 2019 International Conference on, pp. 58-63, 2019.
+
