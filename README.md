@@ -13,7 +13,7 @@ As a warm up, we applied active learning method to calculate PES of water molecu
 
 
 Here we show the PES of water molecule by DeepMD.
-
+![](water.PNG)
 
 
 
