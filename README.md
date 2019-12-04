@@ -11,7 +11,13 @@ Using machine learning method to calculate interatomic potentials often requires
 
 As a warm up, we applied active learning method to calculate PES of water molecule as function of O-H bond length and bond angle. We will update the details of training process later. 
 
-
+- DeepMD training process
+  - Prepare data
+  - Train a model
+  - Freeze the model
+  - MD runs with the model (Native MD code or LAMMPS)  
+  
+  
 Here we show the PES of water molecule by DeepMD.
 ![](water.PNG)
 
