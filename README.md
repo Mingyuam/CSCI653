@@ -6,8 +6,11 @@
 
 Using machine learning method to calculate interatomic potentials often requires thousands of first principles calculations. With active learning algorithm, the internal uncertainty of a Gaussian process regression model is used to decide whether to perform a first principle calculation, or just accept the model prediction. This method significantly accelerate the training process. This project aims to apply the active learning package in Ref. [1,2] and start from reproducing the results in the papers to get some insight on active learning approaches. 
 
-## DeePMD Workflow
-  - Prepare data
+## DeePMD Kit
+### About DeePMD
+DeePMD-kit is a package written in Python/C++, designed to minimize the effort required to build deep learning based model of interatomic potential energy and force field and to perform molecular dynamics (MD). This brings new hopes to addressing the accuracy-versus-efficiency dilemma in molecular simulations. Applications of DeePMD-kit span from finite molecules to extended systems and from metallic systems to chemically bonded systems.
+### DeePMD Workflow
+  - Prepare data (box, coord, energy, force)
   - Train a model
   - Freeze the model
   - MD runs with the model (Native MD code or LAMMPS)  
