@@ -51,7 +51,7 @@ As we obtain the new accurate training dataset, we can go back to the training s
 We would like to reproduce similar result as provided in this paper. In the process, we want to get familiar with, in general, what the workflow is like for DeePMD-kit. We would also like to see how the active learning model perform here, i.e. by how much it increases the efficiency and how much accuracy can it achieve.
 
 ## Difficulties
-
+Considering the long training time, we want to install DeePMD-kit on HPC. First of all we need to make tensorflow work. For the certeain version of tensorflow suggested by the DeePMD-kit, we spent quite an amount of time to find compatible versions of gcc and python. However, the tensorflow installed in the /.local folder can't be recognized by the installation code. We went to HPC office hour and found a way to cut corners, i.e., mannually set the path to tensorflow in their installation code. The problem now is that finally the installation code attempts to write into a folder which is protected. We are trying to find a solution for this.
 
 ## Reference  
 [1] Linfeng Zhang, De-Ye Lin, Han Wang, Roberto Car, and Weinan E, Phys. Rev. Materials 3, 023804 – Published 25 February 2019
